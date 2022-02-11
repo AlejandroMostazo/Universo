@@ -1,0 +1,44 @@
+
+.navbar {
+    z-index: 1050;
+}
+
+.vh-90 {
+    height: 90vh;
+    object-fit: cover;
+}
+
+.bg-color {
+    background-color: #0D0C0C;
+}
+
+.bg-energia {
+    background-color: #ad10a0;
+}
+
+
+.glass {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
+}
+
+.nav-link:hover {
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.progress-widht-height {
+    width: 80%;
+    height: 20px;
+}
+
+@media (max-width: 769px) {
+    .progress-widht {
+        width: 90%;
+    }
+}
+
+.text-indent {
+    text-indent: 11vw;
+}
