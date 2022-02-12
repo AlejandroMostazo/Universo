@@ -12,10 +12,21 @@
     background-color: #0D0C0C;
 }
 
+.link-color {
+    color: #0D0C0C;
+}
+
 .bg-energia {
     background-color: #ad10a0;
 }
 
+.link-energia {
+   color: #ad10a0;
+}
+
+.link-instagram {
+    color: #f58f09;
+ }
 
 .glass {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
@@ -41,4 +52,22 @@
 
 .text-indent {
     text-indent: 11vw;
+}
+
+.footer-responsive {
+    position: absolute;
+}
+
+@media (max-width: 1300px) {
+    .footer-responsive {
+        position: relative;
+    }
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgba(255, 127, 7, 0.897);
 }
