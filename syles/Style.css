@@ -1,4 +1,23 @@
 
+@font-face {
+    font-family: titulos;
+    src: url("../fonts/Podkova-Medium.ttf");
+}
+
+@font-face {
+    font-family: parrafos;
+    src: url("../fonts/SignikaNegative-Light.ttf");
+}
+
+p, a {
+    font-family: parrafos;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: titulos;
+}
+
 .navbar {
     z-index: 1050;
 }
@@ -30,8 +49,8 @@
 
 .glass {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    background-color: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(5px);
 }
 
 .nav-link:hover {
